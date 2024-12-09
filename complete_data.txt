@@ -1,0 +1,15 @@
+Column Name	
+
+
+
+Possible Relationships Between Columns:
+
+Relationship
+Temperature (MinTemp, MaxTemp, Temp9am, Temp3pm): These temperature variables 
+are likely to correlate with each other.
+Rainfall, RainToday, RainTomorrow: Higher rainfall today could increase the likelihood of rain tomorrow.
+WindGustSpeed, WindSpeed9am, WindSpeed3pm: A strong gust might indicate higher average wind speeds during the day.
+Humidity9am, Humidity3pm: Humidity often correlates with lower temperatures and more cloud cover.
+Cloud9am, Cloud3pm, Sunshine: Cloud cover and sunshine are inversely related.
+Pressure9am, Pressure3pm: Atmospheric pressure changes throughout the day could help predict weather patterns.
+RISK_MM: Predicted rainfall for tomorrow could be linked to today’s rainfall, humidity, cloud cover, and pressure.
